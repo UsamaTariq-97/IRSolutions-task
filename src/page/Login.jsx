@@ -157,7 +157,7 @@ const Login = () => {
             />
           </div>
 
-          <div className="mt-8 flex items-center justify-center">
+          <div className="mt-4 lg:mt-8 flex items-center justify-center">
             <p className="font-light  text-gray-500">
               Haven’t joined yet?{" "}
               <span className="font-medium ml-1 underline text-gray-900">
