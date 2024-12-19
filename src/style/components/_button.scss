@@ -1,0 +1,42 @@
+button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 2px;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .rotate-360 {
+    animation: rotateAnimation 2s linear infinite;
+  }
+
+  &.btn-primary {
+    color: #005237;
+    background: #00E687;
+  }
+
+  &.btn-secondary {
+    color: black;
+    background: #fff;
+    border: 1px solid #CFD8E1;
+    .rotate-360 {
+      filter: invert(0);
+    }
+  }
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  @keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

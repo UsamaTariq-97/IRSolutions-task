@@ -1,0 +1,28 @@
+@use "./global";
+
+
+// base style
+@use "./base/color";
+@use "./base/mixins";
+@use "./base/reset";
+@use "./base/font";
+@use "./base/typography";
+@use "./base/tailwindConfig";
+@use "./base/animations";
+
+// components
+@use "./components/button";
+@use "./components/checkbox";
+@use "./components/input";
+@use "./components/pagination";
+@use "./components/switch";
+@use "./components/footer";
+@use "./components/textarea";
+@use "./components/alert";
+@use "./components/radioButton";
+@use "./components/table";
+@use "./components/select";
+
+// pages
+@use "./page/home";
+@use "./page/account";

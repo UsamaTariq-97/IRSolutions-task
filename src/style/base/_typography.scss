@@ -1,0 +1,57 @@
+* {
+  font-family: "Roboto";
+  line-height: normal;
+}
+
+body {
+  h1 {
+    font-size: 64px;
+    letter-spacing: -2px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+  .large {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .medium-font{
+    font-size: 18px;
+  }
+  .medium {
+    font-size: 14px;
+  }
+  .small {
+    font-size: 12px;
+  }
+}
+
+.font-Pacifico {
+  font-family: "Pacifico", "Inter";
+}
+.border-class{
+  border-bottom: 1px solid #EAEAEA;
+}
+
+@media (min-width: 1600px) {
+  .custom-container {
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .custom-text {
+   font-size: 64px !important;
+  }
+}
